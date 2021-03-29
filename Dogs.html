@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  background-color: #f4a897;
+  padding: 30px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #999999;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 80%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 18%;
+  background-color: #fafadf;
+  padding-left: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background: #0fc1bd;
+  margin-top: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="size:25pt; color: #999999"><i><b>Banner</b></i></h1>
+</div>
+
+<div class="topnav">
+  <a href="#"><b>Google</b></a>
+  <a href="#"><b>Swinburne</b></a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h1 style="color: #bacd56">Heading</h1>
+      <p><a style="color: blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</a><a style="background-color: yellow"> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </a><b> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</b><s> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</s></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h4 style="color: #ff1111;">Sidebar</h4>
+      <img src="C:\Users\103590876\Downloads\renata_icon11.jpg" alt=Renata height="100"> 
+      <img src="C:\Users\103590876\Downloads\cc_icon4.jpg" alt=CC height="100"> 
+      <img src="C:\Users\103590876\Downloads\kieran_icon8.jpg" alt=Kieran height="100"> 
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="footer">
+  <br><p style="color: #ffffff"><b>Footer</b></p>
+</div>
+  
+</body>
+</html>
